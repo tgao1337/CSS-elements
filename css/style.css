@@ -1,4 +1,108 @@
+button {
+  margin: .25em;
+}
+
 .tbutton {
+  border: 2px solid;
+  border-color: #cc33ff;
+  padding: .6em 1em;
+  border-radius: .4em;
+  background-color: #cc33ff;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 1em;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.tbutton:hover {
+  background-color: #fff;
+  cursor: pointer;
+  color: #cc33ff;
+}
+
+.tbutton-tilt {
+  border: 2px solid;
+  border-color: #cc33ff;
+  padding: .6em 1em;
+  border-radius: .4em .8em;
+  background-color: #cc33ff;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 1em;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.tbutton-tilt:hover {
+  background-color: #fff;
+  cursor: pointer;
+  color: #cc33ff;
+}
+
+.tbutton-tilt2 {
+  border: 2px solid;
+  border-color: #cc33ff;
+  padding: .6em 1em;
+  border-radius: .8em .4em;
+  background-color: #cc33ff;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 1em;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.tbutton-tilt2:hover {
+  background-color: #fff;
+  cursor: pointer;
+  color: #cc33ff;
+}
+
+.tbutton-left {
+  border: 2px solid;
+  border-color: #cc33ff;
+  padding: .6em 1em;
+  border-radius: .8em .3em .3em .8em;
+  background-color: #cc33ff;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 1em;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.tbutton-left:hover {
+  background-color: #fff;
+  cursor: pointer;
+  color: #cc33ff;
+}
+
+.tbutton-right {
+  border: 2px solid;
+  border-color: #cc33ff;
+  padding: .6em 1em;
+  border-radius: .3em .8em .8em .3em;
+  background-color: #cc33ff;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 1em;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.tbutton-right:hover {
+  background-color: #fff;
+  cursor: pointer;
+  color: #cc33ff;
+}
+
+.tbutton-solid {
   border: none;
   padding: .6em 1em;
   border-radius: .4em;
@@ -7,89 +111,36 @@
   text-align: center;
   display: inline-block;
   font-size: 1em;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
 }
 
-.tbutton:hover {
+.tbutton-solid:hover {
   background-color: #d966ff;
   cursor: pointer;
 }
 
-.tbutton-tilt {
-  border: none;
+.tbutton-shadow {
+  border: 2px solid;
+  border-color: #cc33ff;
   padding: .6em 1em;
-  border-radius: .4em .8em;
+  border-radius: .4em;
   background-color: #cc33ff;
   color: white;
   text-align: center;
   display: inline-block;
   font-size: 1em;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
 }
 
-.tbutton-tilt:hover {
-  background-color: #d966ff;
+.tbutton-shadow:hover {
+  background-color: #fff;
   cursor: pointer;
+  color: #cc33ff;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
-.tbutton-tilt2 {
-  border: none;
-  padding: .6em 1em;
-  border-radius: .8em .4em;
-  background-color: #cc33ff;
-  color: white;
-  text-align: center;
-  display: inline-block;
-  font-size: 1em;
-}
-
-.tbutton-tilt2:hover {
-  background-color: #d966ff;
-  cursor: pointer;
-}
-
-.tbutton-left {
-  border: none;
-  padding: .6em 1em;
-  border-radius: .8em .3em .3em .8em;
-  background-color: #cc33ff;
-  color: white;
-  text-align: center;
-  display: inline-block;
-  font-size: 1em;
-}
-
-.tbutton-left:hover {
-  background-color: #d966ff;
-  cursor: pointer;
-}
-
-.tbutton-right {
-  border: none;
-  padding: .6em 1em;
-  border-radius: .3em .8em .8em .3em;
-  background-color: #cc33ff;
-  color: white;
-  text-align: center;
-  display: inline-block;
-  font-size: 1em;
-}
-
-.tbutton-right:hover {
-  background-color: #d966ff;
-  cursor: pointer;
-}
-
-.tbutton-clear {
-  border: none;
-  padding: .6em 1em;
-  border-radius: .8em .4em;
-  background-color: #cc33ff;
-  color: white;
-  text-align: center;
-  display: inline-block;
-  font-size: 1em;
-}
-
-.tbutton-clear:hover {
-  background-color: #d966ff;
-  cursor: pointer;
+.tform {
+  
 }
