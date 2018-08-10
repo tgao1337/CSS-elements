@@ -142,5 +142,29 @@ button {
 }
 
 .tform {
-  
+  border-radius: .8em;
+  background-color: #f2f2f2;
+  padding: 1em;
+  width: fit-content;
 }
+
+input {
+  margin: .25em;
+}
+
+.tinput {
+  padding: .4em;
+  border: none;
+}
+
+
+.tinput-2 {
+  padding: .4em;
+  border: none;
+
+  /* border-radius: 1em; */
+}
+
+/* .tinput-2:focus, button:focus{
+  outline: none;
+} */
