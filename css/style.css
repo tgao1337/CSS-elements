@@ -1,3 +1,7 @@
+* {
+  font-family: Ubuntu;
+}
+
 button {
   margin: .25em;
 }
@@ -192,10 +196,33 @@ input {
 .tinput-2 {
   padding: .4em;
   border: none;
-
-  /* border-radius: 1em; */
+  border-radius: .25em;
+  border-bottom: 1.5px solid gray;
 }
 
-/* .tinput-2:focus, button:focus{
-  outline: none;
-} */
+.tinput-2:focus {
+
+}
+
+.tinput-3 {
+  padding: .4em;
+  border: 2px solid #9900cc;
+  border-radius: .25em;
+}
+
+.tinput-3:focus {
+  /* border-bottom: 1.5px solid gray; */
+
+}
+
+.tinput-4 {
+  padding: .4em;
+  border-radius: .25em;
+
+}
+
+.tinput-4:focus {
+  border: 2px solid #9900cc;
+  /* border-bottom: 1.5px solid gray; */
+
+}
