@@ -176,6 +176,10 @@ button {
   color: white;
 }
 
+form {
+  margin: .25em;
+}
+
 .tform {
   border-radius: .8em;
   background-color: #f2f2f2;
@@ -231,4 +235,8 @@ input {
   background-color: #f2f2f2;
   padding: 1em;
   width: fit-content;
+}
+
+.tform-2 h3{
+  margin: .2em;
 }
