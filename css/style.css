@@ -226,3 +226,9 @@ input {
   /* border-bottom: 1.5px solid gray; */
 
 }
+
+.tform-2 {
+  background-color: #f2f2f2;
+  padding: 1em;
+  width: fit-content;
+}
