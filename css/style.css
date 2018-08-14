@@ -279,3 +279,24 @@ https://codepen.io/atunnecliffe/pen/gpKzQw
 .tlitem-6 {
 
 }
+
+.tcontainerrow {
+  background-color: pink;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  padding: 1em;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.tcontainercol {
+  background-color: orange;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  padding: 1em;
+  justify-content: center;
+  align-items: center;
+}
