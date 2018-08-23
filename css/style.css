@@ -176,6 +176,109 @@ button {
   color: white;
 }
 
+.tbuttons {
+  border: 2px solid;
+  border-color: #4286f4;
+  padding: .6em 1em;
+  /* border-radius: .4em; */
+  background-color: #4286f4;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 1em;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+
+}
+
+.tbuttons:hover {
+  background-color: #fff;
+  cursor: pointer;
+  color: #4286f4;
+}
+
+.tbuttons:active {
+  background-color: #4286f4;
+  color: white;
+}
+
+.tbuttonsr {
+  border: 2px solid;
+  border-color: #4286f4;
+  padding: .6em 1em;
+  background-color: #4286f4;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 1em;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+
+}
+
+.tbuttonsr:hover {
+  border-radius: .4em;
+  background-color: #fff;
+  cursor: pointer;
+  color: #4286f4;
+}
+
+.tbuttonsr:active {
+  background-color: #4286f4;
+  color: white;
+}
+
+.tbuttons-tilt {
+  border: 2px solid;
+  border-color: #4286f4;
+  padding: .6em 1em;
+  background-color: #4286f4;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 1em;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.tbuttons-tilt:hover {
+  border-radius: .4em .8em;
+  background-color: #fff;
+  cursor: pointer;
+  color: #4286f4;
+}
+
+.tbuttons-tilt:active {
+  background-color: #4286f4;
+  color: white;
+}
+
+.tbuttons-tilt2 {
+  border: 2px solid;
+  border-color: #4286f4;
+  padding: .6em 1em;
+  background-color: #4286f4;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 1em;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.tbuttons-tilt2:hover {
+  border-radius: .8em .4em;
+  background-color: #fff;
+  cursor: pointer;
+  color: #4286f4;
+}
+
+.tbuttons-tilt2:active {
+  background-color: #4286f4;
+  color: white;
+}
+
+
 form {
   margin: .25em;
 }
