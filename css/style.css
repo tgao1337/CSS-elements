@@ -357,7 +357,32 @@ https://codepen.io/atunnecliffe/pen/gpKzQw
    background-color: gray;
    width: fit-content;
    padding: 1em;
+   list-style-type: square;
  }
+
+ .tlist2 {
+   background-color: gray;
+   width: fit-content;
+   padding: 1em;
+   list-style-type: circle;
+ }
+
+
+ .tlist3 {
+   background-color: gray;
+   width: fit-content;
+   padding: 1em;
+   list-style-position: outside;
+ }
+
+
+ .tlist4 {
+   background-color: gray;
+   width: fit-content;
+   padding: 1em;
+   list-style-position: inside;
+ }
+
 
 .tlitem-1 {
 
@@ -383,7 +408,7 @@ https://codepen.io/atunnecliffe/pen/gpKzQw
 
 }
 
-.tlist {
+.tlistnb {
   background-color: gray;
   width: fit-content;
   padding: 1em;
