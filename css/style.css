@@ -435,3 +435,18 @@ color: green;
   justify-content: center;
   align-items: center;
 }
+
+.sws-container {
+    display: flex;
+    overflow-x: auto;
+}
+
+.sws-container img {
+    margin-right: 15px;
+    width: 30em;
+    height: 30em;
+}
+
+.sws-container::-webkit-scrollbar {
+    display: none;
+}
